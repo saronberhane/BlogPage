@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background: black;
+    color: rgb(197, 197, 197);
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    /* padding: 80px 5%; */
+    /* background: yellow; */
+    width: 100%;
+}
+
+button{
+    background: #4095DA;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+button:hover{
+    color: white;
+    background: #1B3652;
+}
+
+/* Start: Comman Use */
+    .inputs input{
+        background: rgb(211, 210, 210);
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid rgb(122, 120, 120);
+        border-radius: 30px;
+        font-size: 16px;
+        outline: none;
+        color: rgb(2, 2, 2);
+        cursor: pointer;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 8px;
+    }
+/* End: Comman Use */
+
+/* Start: Home Page */
+    /* Start: Nav-bar */
+        .header{
+            display: flex;
+            /* align-items: center; */
+            justify-content: space-around;
+            /* background: yellow; */
+            width: 100%;
+        }
+
+        .primary-nav ul{
+            display: flex;
+        }
+
+        .primary-nav a{
+            margin-right: 50px;
+            line-height: 107px;
+            color: #4095DA;
+        }
+
+        a:hover{
+            color: white;
+        }
+
+        .logo img{
+            max-width: 33%;
+            height: auto;
+        }
+    /* End: Nav-bar */
+
+    /* Start: Intro */
+        .container{
+            /* margin-top: 30px; */
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* background: pink; */
+            /* height: auto; */
+            width: 100%;
+            height: 700px;
+        }
+
+        .info{
+            margin-left: 50px;
+        }
+
+        .description{
+            max-width: 250px;
+            margin-bottom: 20px;
+        }
+        .description button{
+            float: right;
+        }
+
+        .info h2{
+            color: white;
+            margin-bottom: 5px;
+        }
+
+    /* this is for the image */
+        .image {
+            width: 726px;
+            height: 494px;
+            margin-top: 50px;
+        }
+        
+        .image img{
+            width: 726px;
+            height: 494px;
+        }
+
+    /* this is for the avatar resizing it and putting the na,e next to the image */
+        .ab{
+            display: flex;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .avatar img {
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    /* End: Intro */
+
+    /* Start: Blogs */
+        .blog-grid{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            grid-template-columns: repeat(3, auto);
+            grid-auto-rows: auto;
+            gap: 10px;
+            margin-top: 5%;
+        }
+
+        .container-box{
+            padding: 55px;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            position: relative;
+            width: 450px ;
+            height: 440px;
+        }
+
+        .blog-img{
+            display: block;
+            width: 336px;
+            height: 230px;
+        }
+
+        .container-box h3{
+            margin-top: 20px;
+            max-width: 300px;
+        }
+    /* End: Blogs */
+
+    /* Start: Subscribe */
+
+        .subscribe{
+            margin-top: 150px;
+            margin-bottom: 150px;
+
+        }
+
+        .subscribe form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .subscribe form h2{
+            margin-bottom: 10px;
+            max-width: 300px;
+        }
+
+        .subscribe input[type="email"] {
+            background: rgb(211, 210, 210);
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid rgb(122, 120, 120);
+            border-radius: 30px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .subscribe input[type="submit"] {
+            color: rgb(248, 244, 244);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .subscribe input[type="submit"]:hover {
+            background-color: #1B3652;
+        }
+    /* End: Subscribe */
+
+    /* Start: Footer Section */
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .info h4{
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .social {
+            display: flex;
+            margin-top: 10px;
+        }
+        .social a{
+            padding: 0px 20px;
+            font-size: 30px;
+        }
+
+        .fab{
+            background: rgb(212, 204, 205);
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            color: black;
+            padding: 10px;
+            
+        }
+
+        .fa{
+            background: rgb(212, 204, 205);
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            color: black;
+            padding: 10px;
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+        
+        hr{
+            border-width: 10%;
+            align-items: center;
+            justify-content: center;
+        }
+    /* End: Footer Section */
+/* End: Home Page */
+
+
+
+/* Start: Post Page */
+    .post{
+        margin-top: 300px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 1050px;
+    }
+
+    .title-pic{
+        margin-top: 50px;
+    }
+    .blog-text{
+        margin-top: 55px;
+    }
+
+    textarea{
+        max-width: 750px;
+        background: rgb(211, 210, 210);
+        width: auto;
+        padding: 12px 20px;
+        /* margin: 8px 0; */
+        box-sizing: border-box;
+        border: 2px solid rgb(122, 120, 120);
+        border-radius: 30px;
+        font-size: 16px;
+        outline: none;
+        color: rgb(2, 2, 2);
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        height: 500px;
+        border: none;
+    }
+
+    .post button{
+        margin-top: 30px;
+        padding:5px 20px;
+    }
+/* End: Post Page */
+
+
+/* Start: Login */
+    .create-account button{
+        border: none;
+        background: none;
+        color: #4095DA;
+    }
+
+    .create-account button:hover{
+        color: #1B3652;
+        background-color: #4095DA;
+    }
+/* End: Login */
+    

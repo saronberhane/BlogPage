@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- icon at the tab of page -->
+    <link rel="icon" type="images/x-icon" href="/Images/BlogLogo1.png">
+
+    <!-- linking the styles css page to this -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- linking the responsive css page to this -->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+
+<body>
+    <!-- Start: Nav-bar -->
+        <header class="header">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="/Images/logo/BlogLogo1.png" alt="logo"></a>    
+                </div>
+
+                <nav class="primary-nav">
+                    <ul>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="about.html"> About </a></li>
+                        <li><a href="contact.html">Contact </a> </li>
+                        <li><a href="post.html"> Post </a></li>
+                        <li><a href="login.html"> Login </a></li>
+                        <a> 
+                            <form class="search" role="search">
+                                <label>
+                                    <input type="search"/>
+                                </label>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </a>    
+                    </ul>  
+                </nav>   
+            </div>
+        </header>
+    <!-- End: Nav-bar -->
+
+    <!-- Start: Making a post -->
+        <section class="post">
+            <div class="title">
+                <h1>Make a Post</h1>
+            </div>
+
+            <div class="title-pic">
+                <form class="inputs">
+                    <input type="text" id="text" name="text" placeholder="Blog Title" required>
+                    <input type="text" id="text" name="text" placeholder="Blog Photo" required>
+                </form>
+            </div>
+
+            <div class="blog-text">
+                <textarea rows="40" cols="108" id="message" name="message" placeholder="Enter Your Blog Post Here" required></textarea>
+            </div>
+            <button type="submit">   Publish  </button>
+        </section>
+    <!-- End: Making a post -->
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    <!-- Start: Footer -->
+        <footer class="foot">
+            <hr>
+            <br>
+            <br>
+                <div class="footer">
+                <div class="info">
+                    <h4> saronberhanee@gmail.com </h4>
+                    <h4>(832) 863-4085</h4>
+                </div>  
+                <ul class="social">
+                    <li><a href="tel:8328634085"><i class="fa  fa-phone"></i></a></li>
+                    <li><a href="mailto:saronberhanee@gmail.com"><i class="fa  fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/saron-berhanee/" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+            <br>
+            <br>
+            <!-- <hr> -->
+                <div class="copyright">
+                    <p>Copyright &copy; 2023 Saron Berhane. All Right Reserved.</p>
+                </div>
+        </footer>
+    <!-- End: Footer -->
+
+</body>
+</html>
